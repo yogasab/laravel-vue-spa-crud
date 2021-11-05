@@ -7,8 +7,8 @@
 
 <script>
 import Axios from 'axios'
-import ShowQuestion from '../../components/ShowQuestion.vue';
-import EditQuestion from '../../components/EditQuestion.vue';
+import ShowQuestion from '../../components/question/ShowQuestion.vue';
+import EditQuestion from '../../components/question/EditQuestion.vue';
 export default {
   components: { ShowQuestion, EditQuestion },
   data(){

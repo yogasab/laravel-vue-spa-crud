@@ -1,78 +1,43 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+# Laravel Single Page Application Vue
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+Made with:
 
-## About Laravel
+-   Laravel [Laravel](https://laravel.com/).
+-   JWT Authentication [JWT](https://jwt.io/).
+-   [Laravel JWT Authentication](https://jwt-auth.readthedocs.io/en/develop/laravel-installation/).
+-   [Vuetify Component](https://vuetifyjs.com/en/).
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+https://user-images.githubusercontent.com/68288783/140524790-b6da936f-eee6-405f-b246-63c70a31741d.mp4
 
--   [Simple, fast routing engine](https://laravel.com/docs/routing).
--   [Powerful dependency injection container](https://laravel.com/docs/container).
--   Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
--   Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
--   Database agnostic [schema migrations](https://laravel.com/docs/migrations).
--   [Robust background job processing](https://laravel.com/docs/queues).
--   [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+# Auth Page
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Login
 
-## Learning Laravel
+![Login Page](https://user-images.githubusercontent.com/68288783/140523095-b8c6bd72-849e-4098-938b-7d692680b2ec.PNG)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Register
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+![Register Page](https://user-images.githubusercontent.com/68288783/140523174-6ba785fc-03c6-4649-b041-acf128e2a5c8.PNG)
 
-## Laravel Sponsors
+# CRUD Article
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## Index/Read All Article
 
--   **[Vehikl](https://vehikl.com/)**
--   **[Tighten Co.](https://tighten.co)**
--   **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
--   **[64 Robots](https://64robots.com)**
--   **[Cubet Techno Labs](https://cubettech.com)**
--   **[Cyber-Duck](https://cyber-duck.co.uk)**
--   **[British Software Development](https://www.britishsoftware.co)**
--   **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
--   **[DevSquad](https://devsquad.com)**
--   [UserInsights](https://userinsights.com)
--   [Fragrantica](https://www.fragrantica.com)
--   [SOFTonSOFA](https://softonsofa.com/)
--   [User10](https://user10.com)
--   [Soumettre.fr](https://soumettre.fr/)
--   [CodeBrisk](https://codebrisk.com)
--   [1Forge](https://1forge.com)
--   [TECPRESSO](https://tecpresso.co.jp/)
--   [Runtime Converter](http://runtimeconverter.com/)
--   [WebL'Agence](https://weblagence.com/)
--   [Invoice Ninja](https://www.invoiceninja.com)
--   [iMi digital](https://www.imi-digital.de/)
--   [Earthlink](https://www.earthlink.ro/)
--   [Steadfast Collective](https://steadfastcollective.com/)
--   [We Are The Robots Inc.](https://watr.mx/)
--   [Understand.io](https://www.understand.io/)
--   [Abdel Elrafa](https://abdelelrafa.com)
--   [Hyper Host](https://hyper.host)
--   [Appoly](https://www.appoly.co.uk)
--   [OP.GG](https://op.gg)
+![Index Forum Page](https://user-images.githubusercontent.com/68288783/140523481-0e3135e6-121d-466f-a9aa-7376732ab836.PNG)
 
-## Contributing
+## Create New Article
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+![Create Question](https://user-images.githubusercontent.com/68288783/140523554-a051cc9e-943e-4f6c-be35-170f22e5c650.PNG)
 
-## Code of Conduct
+## Show Single Article
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+![Show Question](https://user-images.githubusercontent.com/68288783/140523619-7a1952b0-6aea-4636-9dd7-03cfc24050c4.PNG)
 
-## Security Vulnerabilities
+## Update Article
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+![Edit Question](https://user-images.githubusercontent.com/68288783/140523603-ac0383ed-201a-4e79-a882-dfef0ad3e3e4.PNG)
 
-## License
+## Delete Article
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+![Delete Question 1](https://user-images.githubusercontent.com/68288783/140523654-64da273c-5408-4136-adf7-608dcd209146.PNG)
+![Delete Question 2](https://user-images.githubusercontent.com/68288783/140523649-375c6936-70ee-4241-85b7-a8f0baf3d821.PNG)

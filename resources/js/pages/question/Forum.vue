@@ -9,23 +9,8 @@
         >
         </question>
       </v-flex>
-      <v-flex>
-        <v-list-item two-line>
-          <v-list-item-content>
-            <v-list-item-title>Categories</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-        <v-divider></v-divider>
-        <v-list dense>
-          <v-list-item
-            v-for="item in items"
-            :key="item.title"
-          >
-            <v-list-item-content>
-              <v-list-item-title>{{ item.title }}</v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
-        </v-list>
+      <v-flex xs4>
+        <app-sidebar></app-sidebar>
       </v-flex>
     </v-layout>
   </v-container>
@@ -33,19 +18,16 @@
 
 <script>
 import Axios from 'axios'
-import question from '../../components/Question.vue'
+import question from '../../components/question/Question.vue'
+import AppSidebar from '../../components/AppSidebar.vue'
 export default {
   components: {
-    question
+    question,
+    AppSidebar
   },
   data(){
     return {
       questions: {},
-      items: [
-          { title: 'Personal'},
-          { title: 'Programming' },
-          { title: 'Cars' },
-      ],
     }
   },
   created(){
