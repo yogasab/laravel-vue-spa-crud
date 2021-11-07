@@ -21,7 +21,7 @@ export default {
         {title: 'Register', to: '/register', show: !User.loggedIn()},
         {title: 'Logout', to: '/logout', show: User.loggedIn()},
         {title: 'Ask Question', to: '/ask', show: User.loggedIn()},
-        {title: 'Category', to: '/category', show: User.loggedIn()},
+        {title: 'Category', to: '/category', show: User.admin()},
       ]
     }
   },

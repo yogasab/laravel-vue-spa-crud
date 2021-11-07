@@ -6,6 +6,7 @@ import Logout from '../pages/auth/Logout.vue'
 import Forum from '../pages/question/Forum.vue'
 import ReadQuestion from '../pages/question/ReadQuestion.vue'
 import CreateQuestion from '../pages/question/CreateQuestion.vue'
+import CreateCategory from '../pages/category/CreateCategory.vue'
 
 Vue.use(VueRouter)
 
@@ -14,8 +15,9 @@ const routes = [
   {path: '/register', component: Register},
   {path: '/logout', component: Logout, name: 'logout'},
   {path: '/forum', component: Forum, name: 'forum'},
+  {path: '/category', component: CreateCategory},
   {path: '/ask', component: CreateQuestion},
-  {path: '/question/:slug', component: ReadQuestion, name: 'read'}
+  {path: '/question/:slug', component: ReadQuestion, name: 'read'},
 ]
 
 const router = new VueRouter({

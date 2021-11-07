@@ -1,24 +1,18 @@
 <template>
-  <div>
-    <v-list-item two-line>
-      <v-list-item-content>
-        <v-list-item-title>
-          <h1>Categories</h1>
-        </v-list-item-title>
-      </v-list-item-content>
-    </v-list-item>
-    <v-divider></v-divider>
-    <v-list dense>
-      <v-list-item
-        v-for="category in categories"
-        :key="category.title"
-      >
-      <v-list-item-content>
-        <v-list-item-title>{{ category.name }}</v-list-item-title>
-      </v-list-item-content>
+  <v-card class="mx-auto">
+    <v-toolbar dark>
+      <v-toolbar-title>Categories</v-toolbar-title>
+      <v-spacer></v-spacer>
+    </v-toolbar>
+    <v-card tile v-for="(category, index) in categories" :key="category.id">
+      <v-list-item>
+        <v-list-item-content>
+          <v-list-item-title><strong>{{ category.name }}</strong></v-list-item-title>
+        </v-list-item-content>
       </v-list-item>
-    </v-list>
-  </div>
+      <v-divider></v-divider>
+    </v-card>
+  </v-card>
 </template>
 
 <script>

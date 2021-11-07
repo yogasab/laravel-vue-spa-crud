@@ -36,7 +36,7 @@ class CategoryController extends Controller
   public function store(CategoryRequest $request)
   {
     $validatedData = $request->all();
-    $validatedData['slug'] = Str::slug($request->name);
+    // $validatedData['slug'] = Str::slug($request->name);
     Category::create($validatedData);
     return response()->json([
       'success' => true,
@@ -78,6 +78,7 @@ class CategoryController extends Controller
    */
   public function destroy(Category $category)
   {
-    //
+    $category->delete();
+    return response()->json('Deleted');
   }
 }

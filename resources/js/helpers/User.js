@@ -59,6 +59,10 @@ class User {
     console.log(user_id);
     return this.id() == user_id;
   }
+
+  admin(){
+    return this.id() == 26;
+  }
 }
 
 export default User = new User();
