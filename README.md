@@ -7,7 +7,6 @@ Made with:
 -   [Laravel JWT Authentication](https://jwt-auth.readthedocs.io/en/develop/laravel-installation/).
 -   [Vuetify Component](https://vuetifyjs.com/en/).
 
-https://user-images.githubusercontent.com/68288783/140524790-b6da936f-eee6-405f-b246-63c70a31741d.mp4
 
 # Auth Page
 
